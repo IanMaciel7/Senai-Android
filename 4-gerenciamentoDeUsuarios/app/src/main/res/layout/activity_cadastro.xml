@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+
+    android:id="@+id/cadastro_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nome_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nome"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/nome_editView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="marcos"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/email_textView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/email_editView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="nome@email.com"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:id="@+id/idade_textView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Idade"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/idade_editView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="12"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/cpf_textView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Cpf"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/cpf_editView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="00000000000"
+            android:importantForAutofill="no"
+            android:maxLength="11"
+            android:inputType="number"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/botaoCadastro_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CADASTRAR"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
