@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CadastroProduto</string>
+    <string name="nome_cadastro_hint">Nome</string>
+    <string name="quantidade_cadastro_hint">Quantidade</string>
+    <string name="valorUnitario_cadastro_hint">Valor unitario</string>
+    <string name="salvar_cadastro_button">SALVAR</string>
+
+</resources>
