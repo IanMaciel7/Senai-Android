@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IdentificadorComponentes</string>
+    <string name="MODELO">MODELO</string>
+    <string name="ID">ID</string>
+    <string name="CRIADOR">CRIADOR</string>
+    <string name="BATERIA">BATERIA</string>
+</resources>
