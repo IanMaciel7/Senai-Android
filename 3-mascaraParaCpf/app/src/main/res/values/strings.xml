@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TelaLogin</string>
+    <string name="usuario">usuário</string>
+    <string name="senha">senha</string>
+    <string name="entrar">entrar</string>
+    <string name="senai">senai</string>
+    <string name="nome_cadastro_hint">leonardo</string>
+    <string name="email_cadastro_text">email</string>
+    <string name="email_cadastro_hint">abc@email.com</string>
+    <string name="cpf_cadastro_hint">111.111.111-11</string>
+    <string name="nome_cadastro_text">nome</string>
+    <string name="cpf_cadastro_text">CPF</string>
+</resources>
