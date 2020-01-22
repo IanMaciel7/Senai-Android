@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='senai-android-4'
